@@ -1,10 +1,10 @@
 
 import './button.css';
-function Button(){
-
+function Button(props){
+    const {onClick} = props;
     return(
         <div className="create-account-submission">
-            <button className="create-account-submission_btn">
+            <button className="create-account-submission_btn" onClick={onClick}>
                 <p style={{color:'white',fontWeight:700,fontSize:'20px'}}>Create Account</p>
             </button>
         </div>
