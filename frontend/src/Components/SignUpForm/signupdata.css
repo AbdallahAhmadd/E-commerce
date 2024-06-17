@@ -1,0 +1,28 @@
+.sign-up-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+
+   
+
+}
+
+.sign-up-data_name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Changed from center to space-between */
+    flex-direction: row;
+    width: 100%;
+ 
+  
+}
+
+.sign-up-data_credentials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
