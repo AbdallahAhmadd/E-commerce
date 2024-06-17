@@ -32,7 +32,7 @@ Here's a brief high-level overview of the tech stack the website uses:
   - **Figma:** Used for UI/UX design to create visual representations and prototypes of the user interface.
 
 ## Figma Design
-You can view the Figma design for this project [here]([link/to/figma/design](https://www.figma.com/design/3MjZJ5A8hSDgGtt90ccDpT/E-commerce-Website-Signup?node-id=0-1&t=wEJjkNaJdBhyDCQi-1)).
+You can view the Figma design for this project [here](https://www.figma.com/design/3MjZJ5A8hSDgGtt90ccDpT/E-commerce-Website-Signup?node-id=0-1&t=wEJjkNaJdBhyDCQi-1).
 
 ## Status
 This project is still under construction, and new commits are being added daily. Stay tuned for updates and improvements!
