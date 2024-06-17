@@ -1,0 +1,48 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    width: 71%;
+    position: absolute; /* Position absolute to enable overlapping */
+    right: 20px; /* Overlap by 10px */
+    z-index: 1; /* Ensure this is in front */
+    height:80% ;
+}
+
+.form-container_header{
+    width: 70%;
+}
+.form-container_headerr h2{
+    font-size: 34px;
+}
+
+.form-container_login-option{
+    margin-top: 0px;
+    width: 70%;
+}
+.form-container_login-option p{
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 30%;
+    
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+}
+
+.image {
+    height: 100%;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+}
+   
