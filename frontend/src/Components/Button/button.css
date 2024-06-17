@@ -2,6 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    margin-top: 10px;
   }
   
 .create-account-submission_btn{
@@ -10,7 +12,7 @@
     border : none;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     width: 100%;
-    height: 40px;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
