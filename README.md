@@ -3,10 +3,13 @@
 ## Description
 This project is a fully functional sign-up page for an e-commerce website built using the MERN stack (MongoDB, Express, React, Node.js). The application allows users to create accounts, and all user data is securely stored in a MongoDB database.
 
+
+
 ## Screenshots
+<img width="1440" alt="Screenshot 2024-06-17 at 8 42 02 AM" src="https://github.com/AbdallahAhmadd/E-commerce/assets/101679255/7e813d5b-7c18-4ee6-ace5-ccb0ddf46ff7">
+<img width="1440" alt="Screenshot 2024-06-17 at 9 34 09 AM" src="https://github.com/AbdallahAhmadd/E-commerce/assets/101679255/ff886c72-b5a5-4d24-894e-dcb835695cb4">
+<img width="1440" alt="Screenshot 2024-06-17 at 9 32 34 AM" src="https://github.com/AbdallahAhmadd/E-commerce/assets/101679255/83ecb09a-35ab-4b4e-b5dc-8d6ac00efc78">
 
-
-![Screen Reco 17](https://github.com/AbdallahAhmadd/E-commerce/assets/101679255/62437443-fef4-4be1-8399-7ad00304c0bd)
 
 ## Technologies Used
 ![MongoDB](https://img.shields.io/badge/MongoDB-%2347A248?style=for-the-badge&logo=mongodb&logoColor=white)
