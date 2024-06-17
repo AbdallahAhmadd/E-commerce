@@ -8,7 +8,7 @@
     border-radius: 15px;
     width: 71%;
     position: absolute; /* Position absolute to enable overlapping */
-    right: 20px; /* Overlap by 10px */
+    right: 20px; 
     z-index: 1; /* Ensure this is in front */
     height:80% ;
 }
@@ -16,8 +16,9 @@
 .form-container_header{
     width: 70%;
 }
-.form-container_headerr h2{
+.form-container_header h2{
     font-size: 34px;
+    font-family:sans-serif;
 }
 
 .form-container_login-option{
@@ -27,6 +28,11 @@
 .form-container_login-option p{
     font-size: 12px;
     font-weight: 200;
+    font-family:sans-serif;
+
+}
+.form-container_login-option a{
+    text-decoration: none;
 }
 
 .image-container {
