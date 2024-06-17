@@ -11,7 +11,7 @@ function SignUpData(){
             </div>
             <div className="sign-up-data_credentials">
                 <Textbox placeholder='Email'/>
-                <Textbox placeholder='Password'/>
+                <Textbox type={'password'} placeholder='Password'/>
                 <Button/>
             </div>
         </div>
