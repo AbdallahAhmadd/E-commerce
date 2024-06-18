@@ -1,4 +1,4 @@
-# E-commerce Sign Up Page
+# E-commerce Website
 
 ## Description
 This project is a fully functional sign-up page for an e-commerce website built using the MERN stack (MongoDB, Express, React, Node.js). The application allows users to create accounts, and all user data is securely stored in a MongoDB database.
