@@ -1,0 +1,30 @@
+.login-text-box-container{
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+  
+    
+}
+
+.sign-up-switch-container a{
+    text-decoration: none;
+}
+.sign-up-switch-container p{
+    font-size: 12px;
+    font-weight: 200;
+    font-family:sans-serif;
+    margin-left: 3px;
+}
+
+.login-header{
+    display: flex;
+    justify-content: left;
+    align-items:center;
+
+}
+
+.login-header p{
+    font-size: 34px;
+    font-family:sans-serif;
+    font-weight: 700;
+}
