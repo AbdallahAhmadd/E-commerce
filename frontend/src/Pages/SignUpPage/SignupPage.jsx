@@ -1,5 +1,5 @@
-import LeftBox from "../Components/MainBox/LeftBox";
-import RightBox from "../Components/MainBox/RightBox";
+import LeftBox from "../../Components/MainBox/LeftBox";
+import RightBox from "../../Components/MainBox/RightBox";
 import shoppingGirl from './shopping-woman.png'
 import './signuppage.css'
 
