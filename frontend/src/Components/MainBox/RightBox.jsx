@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import SignUpData from '../SignUpForm/SignUpData'
 import './mainbox.css'
 
@@ -11,7 +12,11 @@ function RightBox(){
             <SignUpData/>
 
             <div className='form-container_login-option'>
-                <p>Already have an account? <a href='#'>Login</a></p>
+                <p>Already have an account? 
+                    
+                    <Link to='/login'>Login</Link>
+                
+                </p>
             </div>
         </div>
     );

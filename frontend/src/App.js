@@ -1,7 +1,6 @@
-
-import LeftBox from './Components/MainBox/LeftBox.jsx';
-import RightBox from './Components/MainBox/RightBox.jsx';
-import SignupPage from './Pages/SignupPage.jsx';
+import SignupPage from './Pages/SignUpPage/SignupPage.jsx';
+import LoginPage from './Pages/LoginPage/LoginPage.jsx';
+import ViewUsersPage from './Pages/ViewUserInfoPage/ViewUsersPage.jsx';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import './index.css';
 function App() {
@@ -10,9 +9,9 @@ function App() {
       <BrowserRouter>
       <div className='pages'>
       <Routes>
-        <Route path="/"
-        element={<SignupPage />}
-        />
+        <Route exact path='/'  element={<SignupPage/>} />
+        <Route exact path='/login' element={<LoginPage/>} />
+        <Route exact path='/ViewUsers' element={<ViewUsersPage/>} />
       </Routes>
       </div>
     

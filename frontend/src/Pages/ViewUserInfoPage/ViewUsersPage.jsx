@@ -1,4 +1,4 @@
-import ViewInfoCard from "../Components/ViewInfoBox/ViewInfoCard";
+import ViewInfoCard from "../../Components/ViewInfoBox/ViewInfoCard.jsx";
 import './viewuserspage.css'
 import AnalysisImage from './analysis-woman.png'
 function ViewUsersPage() {
