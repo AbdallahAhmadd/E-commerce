@@ -6,6 +6,10 @@ const { json } = require('express')
 //get all users
 const getUsers = async(req,res)=>{
     const users = await userModel.find({}).sort({createdAt:-1})
+    if (!users){
+        return res.status(404).json({error:'No users found'})
+    }
+
     res.status(200).json(users)
 }
 
