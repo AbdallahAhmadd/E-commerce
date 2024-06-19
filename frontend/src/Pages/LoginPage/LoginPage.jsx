@@ -3,7 +3,7 @@ import LoginRightBox from "../../Components/MainBox/LoginRightbox.jsx";
 import shoppingGirl from '../SignUpPage/shopping-woman.png'
 import '../SignUpPage/signuppage.css'
 
-function SignupPage(){
+function LoginPage(){
     return (
         <div className="signup-page-container">
            <LeftBox/>
@@ -13,4 +13,4 @@ function SignupPage(){
     );
 }
 
-export default SignupPage;
+export default LoginPage;
