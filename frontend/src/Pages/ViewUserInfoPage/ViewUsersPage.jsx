@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import ViewInfoCard from "../../Components/ViewInfoBox/ViewInfoCard.jsx";
 import './viewuserspage.css';
 import AnalysisImage from './analysis-woman.png';
+import LogoutButton from "../../Components/Button/LogoutButton.jsx";
 
 function ViewUsersPage() {
   const [users, setUsers] = useState([]);
@@ -35,7 +36,12 @@ function ViewUsersPage() {
         </div>
         <div className="view-info-image-container">
           <img src={AnalysisImage} alt="woman working on a computer" />
+          <div className="logout-button-container">
+            <LogoutButton/>
+          </div>
+          
         </div>
+       
       </div>
     </>
   );

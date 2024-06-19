@@ -19,12 +19,21 @@
 
 .view-info-image-container{
     display: flex;
-    align-items: flex-start;
-
+    flex-direction: column;
     width: 30%;
+    justify-content: right;
+    
     
 }
+
+.logout-button-container{
+   margin-top: auto;
+}
+
 .view-info-image-container img{
     width: 100%;
+}
 
+.logout-link{
+    text-decoration: none;
 }
