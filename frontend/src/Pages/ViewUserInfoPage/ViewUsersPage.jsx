@@ -10,7 +10,6 @@ function ViewUsersPage() {
     const fetchUsers = async () => {
       const response = await fetch('/api/users');
       const data = await response.json();
-
       if (response.ok) {
         setUsers(data);
         console.log(data);
@@ -18,6 +17,10 @@ function ViewUsersPage() {
     };
     fetchUsers();
   }, []);
+
+  const handleUserDelete = (userId) => {
+    setUsers(users.filter(user => user._id !== userId));
+  };
 
   return (
     <>
@@ -27,7 +30,7 @@ function ViewUsersPage() {
       <div style={{ display: 'flex', flexDirection: 'row' }}>
         <div className="info-cards-container">
           {users.map(user => (
-            <ViewInfoCard key={user._id} user={user} />
+            <ViewInfoCard key={user._id} user={user} onDelete={handleUserDelete} />
           ))}
         </div>
         <div className="view-info-image-container">
