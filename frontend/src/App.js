@@ -9,9 +9,9 @@ function App() {
       <BrowserRouter>
       <div className='pages'>
       <Routes>
-        <Route exact path='/'  element={<SignupPage/>} />
-        <Route exact path='/login' element={<LoginPage/>} />
         <Route exact path='/ViewUsers' element={<ViewUsersPage/>} />
+        <Route exact path='/' element={<SignupPage/>} />
+        <Route exact path='/login' element={<LoginPage/>} />
       </Routes>
       </div>
     
