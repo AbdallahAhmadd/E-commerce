@@ -1,14 +1,42 @@
 # E-commerce Website
 
 ## Description
-This project is a fully functional sign-up page for an e-commerce website built using the MERN stack (MongoDB, Express, React, Node.js). The application allows users to create accounts, and all user data is securely stored in a MongoDB database.
+This project is a MERN (MongoDB, Express, React, Node.js) stack web application designed to showcase the fundamental CRUD (Create, Read, Update, Delete) operations. The primary objective of this project is to demonstrate the ability to handle basic data management tasks through a web interface, without aiming to build a fully functional website.
+
+
+## Features
+
+### User Registration
+
+- **Register New Users**: Users can register by providing their first name, last name, email, and password. The user information is stored in a MongoDB database.
+- **Form Validation**: Basic form validation ensures that all required fields are filled out correctly before submission.
+
+### User Login
+
+- **Admin Login**: Only admin users can log in. Admin credentials are hardcoded
+  
+### View Users
+
+- **User List**: Admin can view a list of all registered users.
+- **Detailed User Information**: Each user’s details, including first name, last name, email, and password, are displayed.
+
+### Delete Users
+
+- **Remove Users**: Admin can delete any user from the database.
+- **Confirmation Prompt**: Ensures that users are not accidentally deleted by requiring confirmation.
 
 
 
 ## Screenshots
 <img width="1440" alt="Screenshot 2024-06-17 at 8 42 02 AM" src="https://github.com/AbdallahAhmadd/E-commerce/assets/101679255/7e813d5b-7c18-4ee6-ace5-ccb0ddf46ff7">
-<img width="1440" alt="Screenshot 2024-06-17 at 9 34 09 AM" src="https://github.com/AbdallahAhmadd/E-commerce/assets/101679255/ff886c72-b5a5-4d24-894e-dcb835695cb4">
-<img width="1440" alt="Screenshot 2024-06-17 at 9 32 34 AM" src="https://github.com/AbdallahAhmadd/E-commerce/assets/101679255/83ecb09a-35ab-4b4e-b5dc-8d6ac00efc78">
+<img width="1440" alt="Screenshot 2024-06-19 at 3 56 13 PM" src="https://github.com/AbdallahAhmadd/E-commerce/assets/101679255/df3f9df6-1f54-4308-913b-71b61ba2b841">
+<img width="1440" alt="Screenshot 2024-06-19 at 3 56 26 PM" src="https://github.com/AbdallahAhmadd/E-commerce/assets/101679255/f3602231-14fc-4811-b698-b09f12cf7cc4">
+
+<img width="1440" alt="Screenshot 2024-06-19 at 3 56 34 PM" src="https://github.com/AbdallahAhmadd/E-commerce/assets/101679255/8b2fc0ed-9bc5-4134-b5c2-964cacb101ed">
+
+
+## Features
+  The project is not a fully established website it only tackles CRUD 
 
 
 ## Technologies Used
