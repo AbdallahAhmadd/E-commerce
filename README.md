@@ -23,14 +23,16 @@ This project is a MERN (MongoDB, Express, React, Node.js) stack web application 
 ### Delete Users
 
 - **Remove Users**: Admin can delete any user from the database.
-- **Confirmation Prompt**: Ensures that users are not accidentally deleted by requiring confirmation.
+
 
 
 
 ## Screenshots
-<img width="1440" alt="Screenshot 2024-06-17 at 8 42 02 AM" src="https://github.com/AbdallahAhmadd/E-commerce/assets/101679255/7e813d5b-7c18-4ee6-ace5-ccb0ddf46ff7">
-<img width="1440" alt="Screenshot 2024-06-19 at 3 56 13 PM" src="https://github.com/AbdallahAhmadd/E-commerce/assets/101679255/df3f9df6-1f54-4308-913b-71b61ba2b841">
-<img width="1440" alt="Screenshot 2024-06-19 at 3 56 26 PM" src="https://github.com/AbdallahAhmadd/E-commerce/assets/101679255/f3602231-14fc-4811-b698-b09f12cf7cc4">
+![Create User](https://github.com/AbdallahAhmadd/E-commerce/assets/101679255/0cb5c0f4-fc4d-46dd-9341-0f3d1cc5cd3e)
+![login](https://github.com/AbdallahAhmadd/E-commerce/assets/101679255/798e7f53-5de8-40c5-9cb2-5b9f16f06f72)
+![delete user](https://github.com/AbdallahAhmadd/E-commerce/assets/101679255/b5f03e8a-c977-46fa-9fcc-60deff6e02be)
+
+<img width="1440" alt="Screenshot 2024-06-20 at 4 41 12 AM" src="https://github.com/AbdallahAhmadd/E-commerce/assets/101679255/314e76e9-bafc-4c45-99f5-8ecd05c862b8">
 
 <img width="1440" alt="Screenshot 2024-06-19 at 3 56 34 PM" src="https://github.com/AbdallahAhmadd/E-commerce/assets/101679255/8b2fc0ed-9bc5-4134-b5c2-964cacb101ed">
 
