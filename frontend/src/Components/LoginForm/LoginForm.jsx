@@ -30,7 +30,7 @@ function LoginForm(){
         </div>
         <div className='login-text-box-container'>
             <Textbox placeholder='Email' type='email' onChange={(e) => setEmail(e.target.value)} value={email} />
-            <Textbox placeholder='Password' type='password' onChange={(e) => setPassword(e.target.value)} value={password} />
+            <Textbox placeholder='Password' type='password' onChange={(e) => setPassword(e.target.value)} value={password} isPassword={true} />
             <Button text='Login' onClick={handleLogin}/>
             
         </div>

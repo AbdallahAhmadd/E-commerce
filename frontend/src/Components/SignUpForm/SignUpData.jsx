@@ -79,7 +79,7 @@ const SignUpData = () => {
             </div>
             <div className="sign-up-data_credentials">
                 <Textbox placeholder='Email' onChange={handleEmailChange} value={email}/>
-                <Textbox type={'password'} placeholder='Password' onChange={handlePasswordChange} value={password}/>
+                <Textbox type={'password'} placeholder='Password' onChange={handlePasswordChange} value={password} isPassword={true}/>
                 <Button onClick={handleCreateAccount}/>
                 {error && <p style={{color:'red',fontSize:'18px'}}>{error}</p>}
                 {success && <p style={{color:'green',fontSize:'18px'}}>{success}</p>}

@@ -1,4 +1,5 @@
 .textbox-container{
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,6 +26,22 @@
     animation: flash 1.4s infinite;
     animation-timing-function: linear;
   }
+
+
+.textbox-container i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #686DAD;
+    position: absolute;
+    right: 10px; /* Adjust this value to position the icon */
+    font-size: 20px;
+    cursor: pointer;
+   width: 30px;
+   justify-self: center;
+   height: 30px;
+
+}
 
 @keyframes flash {
     0% {border-color: #686DAD;}
